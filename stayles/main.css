@@ -139,7 +139,7 @@ main {
 .what-i-do {
     max-width: 1140px;
     text-align: center;
-    margin: 0px auto;
+    margin: 80px auto;
 }
 
 .what-i-do .all-skills {
@@ -176,12 +176,39 @@ main {
 /* resume styles */
 .my-resume{
     text-align: center;
+    margin: 80px auto;
 }
 .my-resume .resume-details-conteiner{
     display: flex;
+    gap: 40px;
     padding: 20px;
     text-align: left;
 }
-.my-resume .resume-sub-conteiner{
-    margin: 5px 10px;
+/* footer style */
+footer{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 120px;
+}
+footer input{
+    display: block;
+    width: 400px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+footer .btn{
+    width: 120px;
+    text-align: center;
+    color: #FFF;
+    background-color: #FD6E0A;
+}
+footer textarea{
+    width: 400px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }

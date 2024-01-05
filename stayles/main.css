@@ -1,5 +1,14 @@
 header {
+    display: flex;
     font-family: 'Open Sans', sans-serif;
+    background-color: #FFF8F3;
+}
+
+.developer-image {
+    width: 136px;
+    height: 774px;
+    margin: 38px 60px 25px 23px;
+
 }
 
 nav {
@@ -48,13 +57,20 @@ nav li {
 
 .hero {
     display: flex;
-    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.hero-content {
+    margin-top: 150px;
 }
 
 .hero-content h2 {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
+    margin: 0px;
 }
 
 .hero-content h1 {
@@ -62,6 +78,7 @@ nav li {
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
+    margin: 0px;
 }
 
 .hero-content p {
@@ -81,4 +98,90 @@ nav li {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* about styles here */
+main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 130px auto;
+    padding: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about>h1 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about>p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* what i do styles */
+
+.what-i-do {
+    max-width: 1140px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.what-i-do .all-skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.what-i-do .skills {
+    width: 267px;
+    height: 377px;
+    padding: 33px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.what-i-do .skills h3 {
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.what-i-do .skills p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* resume styles */
+.my-resume{
+    text-align: center;
+}
+.my-resume .resume-details-conteiner{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+.my-resume .resume-sub-conteiner{
+    margin: 5px 10px;
 }
